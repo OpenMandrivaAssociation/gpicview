@@ -1,11 +1,11 @@
 Summary:	A Simple and Fast Image Viewer for X
 Name:     	gpicview
-Version:	0.2.3
-Release:	7
+Version:	0.2.5
+Release:	1
 License:	GPLv2+
 Group:		Graphics
 Url:		http://www.lxde.org/
-Source0: 	http://dfn.dl.sourceforge.net/sourceforge/lxde/%name-%version.tar.gz
+Source0: 	http://sourceforge.net/project/lxde/%name-%version.tar.xz
 
 BuildRequires:	desktop-file-utils
 BuildRequires:	intltool >= 0.40.0
@@ -25,11 +25,11 @@ It features:
 %setup -q
 
 %build
-%configure2_5x
-%make LIBS="-ljpeg -lm"
+%configure
+%make_build LIBS="-ljpeg -lm"
 
 %install
-%makeinstall_std
+%make_install
 
 %find_lang %{name}
 
