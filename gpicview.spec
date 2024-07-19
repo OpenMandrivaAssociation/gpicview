@@ -8,8 +8,8 @@
 
 Summary:	A Simple and Fast Image Viewer for X
 Name:     	gpicview
-Version:	0.2.5
-Release:	2
+Version:	0.2.6
+Release:	1
 License:	GPLv2+
 Group:		Graphics
 Url:		http://www.lxde.org/
