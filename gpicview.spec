@@ -12,7 +12,7 @@ Version:	0.2.6
 Release:	1
 License:	GPLv2+
 Group:		Graphics
-Url:		http://www.lxde.org/
+Url:		https://www.lxde.org/
 #Source0: 	http://sourceforge.net/project/lxde/%name-%version.tar.xz
 Source0:	https://github.com/lxde/gpicview/archive/%{?snapshot:%{commit}}%{!?snapshot:%{version}}/%{name}-%{?snapshot:%{commit}}%{!?snapshot:%{version}}.tar.gz
 
