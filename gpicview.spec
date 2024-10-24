@@ -1,15 +1,15 @@
 # git snapshot
 %global snapshot 1
 %if 0%{?snapshot}
-	%global commit		95eef260885a5ef211602422f013c10c06383e9f
-	%global commitdate	20231013
+	%global commit		4dbf512562ff00df2c3476f52f1e568d7c873090
+	%global commitdate	20249005
 	%global shortcommit	%(c=%{commit}; echo ${c:0:7})
 %endif
 
 Summary:	A Simple and Fast Image Viewer for X
 Name:     	gpicview
 Version:	0.2.6
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Graphics
 Url:		https://www.lxde.org/
@@ -35,6 +35,7 @@ It features:
 %{_datadir}/applications/*.desktop
 %{_datadir}/%{name}
 %{_iconsdir}/hicolor/*/apps/%{name}.png
+%{_mandir}/man1/%{name}.1.*
 
 #---------------------------------------------------------------------------
 
