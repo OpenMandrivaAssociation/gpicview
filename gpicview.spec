@@ -1,5 +1,5 @@
 # git snapshot
-%global snapshot 1
+#global snapshot 1
 %if 0%{?snapshot}
 	%global commit		4dbf512562ff00df2c3476f52f1e568d7c873090
 	%global commitdate	20249005
@@ -8,8 +8,8 @@
 
 Summary:	A Simple and Fast Image Viewer for X
 Name:     	gpicview
-Version:	0.2.6
-Release:	2
+Version:	0.3.1
+Release:	1
 License:	GPLv2+
 Group:		Graphics
 Url:		https://www.lxde.org/
