@@ -16,6 +16,11 @@ Url:		https://www.lxde.org/
 #Source0: 	http://sourceforge.net/project/lxde/%name-%version.tar.xz
 Source0:	https://github.com/lxde/gpicview/archive/%{?snapshot:%{commit}}%{!?snapshot:%{version}}/%{name}-%{?snapshot:%{commit}}%{!?snapshot:%{version}}.tar.gz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	desktop-file-utils
 BuildRequires:	intltool >= 0.40.0
 BuildRequires:	jpeg-devel
